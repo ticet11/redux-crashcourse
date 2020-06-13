@@ -1,3 +1,12 @@
+# Post Fetch and Post
+
+Built with [this Tutorial](https://www.youtube.com/watch?v=93p3LxR9xfM).
+
+> For some reason post requests were not returning the proper JSON data, as prescribed in [the docs](https://jsonplaceholder.typicode.com/guide.html), so I had to improvise a bit on the POST.
+
+## TODO:
+- [ ] styling
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
