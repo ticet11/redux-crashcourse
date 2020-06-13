@@ -5,11 +5,11 @@ import { connect } from "react-redux";
 import { fetchPosts } from "../actions/postActions";
 
 class Posts extends Component {
-    componentDidMount = () => {
+    UNSAFE_componentWillMount = () => {
         this.props.fetchPosts();
     };
 
-    componentDidUpdate = (nextProps) => {
+    UNSAFE_componentWillReceiveProps = (nextProps) => {
         if(nextProps.newPost) {
             this.props.posts.unshift(nextProps.newPost);
         }
