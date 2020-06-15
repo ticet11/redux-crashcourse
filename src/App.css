@@ -1,4 +1,20 @@
 .App {
+    background-color: #B5BAD0;
+}
+
+.post-form {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.post-form h1 {
+    margin: 0;
+}
+
+.posts-container {
     width: 90%;
     margin: auto;
 }
